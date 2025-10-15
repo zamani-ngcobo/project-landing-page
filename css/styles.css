@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+}
+
+/*  Header styling  */
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  justify-self: center;
+}
+
+header > img {
+  margin-left: 15px;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+ul {
+  gap: 30px;
+  margin: 15px;
+}
+
+header a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+/* Welcome Section Styling  */
+.welcome-section {
+  display: flex;
+  justify-self: center;
+}
